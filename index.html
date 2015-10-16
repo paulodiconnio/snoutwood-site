@@ -25,10 +25,10 @@
         <div class="nav" id="navbar">
           <ul>
             <!--<li><a href="index.html"><img src="images/Snoutwood trotters-02.png" onmouseover="this.src='images/Snoutwood-home.png'" onmouseout="this.src='images/Snoutwood trotters-02.png'"/></a></li>-->
-            <li><a href="#findUs"><img src="images/Snoutwood trotters-27.png" onmouseover="this.src='images/Snoutwood-findus.png'" onmouseout="this.src='images/Snoutwood trotters-27.png'" id="find"/></a></li>
-            <li><a href="#product"><img src="images/Snoutwood trotters-24.png" onmouseover="this.src='images/Snoutwood-ourproducts.png'" onmouseout="this.src='images/Snoutwood trotters-24.png'"/></a></li>
-            <li><a href="#recipes"><img src="images/Snoutwood trotters-25.png" onmouseover="this.src='images/Snoutwood-recipes.png'" onmouseout="this.src='images/Snoutwood trotters-25.png'"/></a></li>
-            <li><a href="#ourStory"><img src="images/Snoutwood trotters-23.png" onmouseover="this.src='images/Snoutwood-aboutus.png'" onmouseout="this.src='images/Snoutwood trotters-23.png'"/></a></li>
+            <li><a href="#sales"><img src="images/Snoutwood trotters-28.png" onmouseover="this.src='images/Snoutwood trotters-03.png'" onmouseout="this.src='images/Snoutwood trotters-28.png'"/></a></li>
+            <li><a href="#findUs"><img src="images/Snoutwood-findus.png" onmouseover="this.src='images/Snoutwood trotters-07.png'" onmouseout="this.src='images/Snoutwood-findus.png'"/></a></li>
+            <li><a href="#recipes"><img src="images/Snoutwood-recipes.png" onmouseover="this.src='images/Snoutwood trotters-05.png'" onmouseout="this.src='images/Snoutwood-recipes.png'"/></a></li>
+            <li><a href="#booking"><img src="images/Snoutwood trotters-29.png" onmouseover="this.src='images/Snoutwood trotters-06.png'" onmouseout="this.src='images/Snoutwood trotters-29.png'"/></a></li>
             <!--<li><a href="blog.html#navbar"><img src="images/Snoutwood trotters-06.png" onmouseover="this.src='images/Snoutwood-blog.png'" onmouseout="this.src='images/Snoutwood trotters-06.png'"/></a></li>-->
             
           </ul>
@@ -55,20 +55,19 @@
 </div>
 
 
-<div class="sales">
+<div class="sales" id="sales">
   <h2>Upcoming Sales</h2>
   <p>We run our Free-Range Pork Sale every fortnight on a Saturday, 10am until 2pm.</p>
   <p>Here are our next sales:</p>
     <ul>
-      <li>Saturday 4th July</li>
-      <li>Saturday 18th July</li>
-      <li>Saturday 1st August</li>
-      <li>Saturday 15th August</li>
+      <li>Saturday 24th October</li>
+      <li>Saturday 7th November</li>
+      <li>Saturday 21st November</li>
+      <!--<li>Saturday 15th August</li>-->
     </ul
 
      <div class="products" id ="product">
-  <h2>Products</h2>
-  <p>All of our pigs are bred, born and raised here on our farm, and are 100% free range & outdoor reared, with plenty of space to move, forage and do exactly what pigs like to do.</p>
+  <p>All of our pigs are born and raised here on our farm, and are 100% free range , with plenty of space to move, forage and do exactly what pigs like to do.</p>
   <p>We believe that our produce speaks for itself.</br>For a full product price list, download the PDF below.<p>
   
       <a href="pdfs/price-list.pdf" target="_blank">Download PDF</a>
@@ -106,29 +105,46 @@
   <h2>Recipe Ideas</h2>
     <p>Needless to say, Snoutwood Pork can be the key ingredient to some incredibly tasty meals. We're regularly trying out new recipes and so are our customers.</p>
     <p>Here are a few of our favourites for you to try out at home:</p>
-    <ul>
-      <li>
-        <a href="pdfs/sausage-rolls.pdf" target="_blank">Snoutwood Sausage Rolls</a>
-      </li>
-      <li><a href="about.html#navbar"><img src="images/Snoutwood trotters-23.png" onmouseover="this.src='images/Snoutwood-aboutus.png'" onmouseout="this.src='images/Snoutwood trotters-23.png'"/></a></li>
-    </ul>
+
+      <div class="recipe-images">
+        <div class="image-wrapper">
+          <a href="pdfs/sausagerolls.pdf" target="_blank">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/sausageroll1_zps6e77de34.jpg">
+            <h3>Snoutwood Sausage Rolls</h3>
+          </a>
+        </div>
+
+        <div class="image-wrapper">
+          <a href="pdfs/gammon.pdf" target="_blank">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/food4_zps6a523150.jpg">
+            <h3>Coca-Cola Gammon</h3>
+          </a>
+        </div>
+
+        <!--<div class="image-wrapper">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/food7_zpsd10c146f.jpg">
+            <h3>Bacon Wrapped Stuffing</h3>
+        </div>-->
+      </div>
+
+
     <p><i>If you've made something amazing with Snoutwood Pork recently, then let us know via email and we'll try and post it on the website!</i></p>
  </div>
-</div>
 
-<div class="booking">
+
+<div class="booking" id="booking">
 
   <div class="enquiry overlay-content">
      <form id="form-div" action="http://formspree.io/snoutwoodtrotters@hotmail.co.uk"
         method="POST">
 
       <h2>Booking Enquiries</h2>
-      <p>Text about booking</p>
+      <p>For any Snoutwood queries you may have (including BBQ & Hog Roast catering) contact us using the form below.</p>
 
       <select>
           <option value ="select">Select Enquiry</option>
-          <option value ="hogroast">Hog Roast</option>
-          <option value ="bbq">BBQ</option>
+          <option value ="sale">Shop/Sale Days</option>
+          <option value ="catering">Events Catering</option>
           <option value ="other">Other</option>
       </select>
 
@@ -138,7 +154,7 @@
 
       <input type="phone" name="phone" placeholder="Phone number (optional)" id="_replyto" optional>
 
-      <textarea name="enquiry" style= "height:200px; width:400px" placeholder="Your enquiry: Give us an idea of the type of event, date & no. of people you would like us to cater for."id="enquiry" required></textarea>
+      <textarea name="enquiry" style= "height:200px; width:400px" placeholder="Your enquiry:"id="enquiry" required></textarea>
 
       <input class="submit-enquiry button" type="submit" value="Send">
       </form>
